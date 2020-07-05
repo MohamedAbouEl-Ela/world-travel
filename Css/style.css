@@ -1,0 +1,142 @@
+
+
+.bg-dark{
+    background-color:hsl(227, 54%, 34%,0.5) !important;
+    width: 100%;
+}
+.navbar-dark .navbar-brand {
+    color: #fff;
+    font-weight: 700;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+section.cover-photo{
+    background-image: url("../Photos/home_slider.jpg");
+    width: 100%;
+    height: 1038px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+}
+.over{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(47, 55, 85, 0.5) ;
+    z-index: 2;
+}
+
+.text-center{
+    padding-top: 200px;
+    position: relative;
+    z-index: 111;
+
+}
+.text-center h1{
+
+    color: white;
+    font-size: 100px;
+    text-transform: uppercase;
+    font-family: cursive;
+
+}
+          /*           Search             */
+
+.search-content{
+    width: 100%;
+    height: 180px;
+    position: relative;
+    z-index: 12;
+    top: 40%;
+    background: linear-gradient(to right, #283c86, #45a247);
+}
+.search-content .search-item {
+    width: 100%;
+    height: 100%;
+}
+.search-content .search-item .ttt{
+    padding-top: 5%;
+}
+.search-content .search-item .ttt .row{
+    width: 100%;
+    height: 100%;
+}
+label{
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+
+          /* Start Trip Section  */
+.trips{
+    margin: 80px 0px 80px 0px;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.aws .over-aws{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(47, 55, 85, 0.5) ;
+    z-index: 111;
+}
+
+
+h2{
+    text-align: center;
+}
+.text2{
+    text-align: center;
+}
+
+          /*  End Trip Section  */
+
+          /* Start Offers Section  */
+h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    color: #2d2c2c;
+    /* margin-top: -8px; */
+    text-transform: uppercase;
+}
+.first-offer{    
+    margin: 50px 0px;
+}
+.offer-price .text-price{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: cursive;
+    color: #b8860b;
+}
+.offer-price .text-price span{
+    color: #8b8d8a;
+    font-size: 15px;
+    font-weight: 400;
+    margin-left: -9px;
+}
+.offer-text .text-offer{
+    color: #8b8d8a;
+
+}
+          
+          /* End Offers Section  */
