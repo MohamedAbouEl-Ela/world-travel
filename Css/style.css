@@ -1,4 +1,8 @@
-
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
 
 .bg-dark{
     background-color:hsl(227, 54%, 34%,0.5) !important;
@@ -35,22 +39,21 @@ section.cover-photo{
     z-index: 2;
 }
 
-.text-center{
+.text-over{
     padding-top: 200px;
     position: relative;
     z-index: 111;
 
 }
-.text-center h1{
+.text-over h1{
 
     color: white;
     font-size: 100px;
     text-transform: uppercase;
     font-family: cursive;
-
+    text-align: center;
 }
-          /*           Search             */
-
+/*           Search             */
 .search-content{
     width: 100%;
     height: 180px;
@@ -76,39 +79,111 @@ label{
     font-weight: 700;
     text-transform: uppercase;
 }
-
-
-          /* Start Trip Section  */
+/* Start Trip Section  */
 .trips{
     margin: 80px 0px 80px 0px;
 }
-
 img{
     width: 100%;
     height: 100%;
 }
 
+.aws{
+    width: 100%;
+    height: 425px;
+    position: relative;
+}
 .aws .over-aws{
     position: absolute;
     width: 100%;
     height: 100%;
     top: 0px;
     left: 0px;
-    background-color: rgba(47, 55, 85, 0.5) ;
-    z-index: 111;
+   z-index: 1;  
+   background-color: rgba(47, 55, 85, 0.8) ;
+   
 }
-
-
+.cover-img-trip{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.trip-content{
+    width: 100%;
+    height: 100%;
+    z-index: 1000000;
+}
+.trip-date{
+    position: absolute;
+    top: 16%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: auto;
+    padding-left: 39px;
+    padding-right: 39px;
+    white-space: nowrap;
+    font-size: 13px;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: 27px;
+    background: #fa9e1c;
+    border-radius: 14px;
+    z-index: 2;
+}
+.trip-text{
+    z-index: 5;
+}
+.trip-text h5{
+    font-size: 59px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.intro-price{
+    font-size: 14px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-top: -4px;
+}
+.trip-button button{
+    position: absolute;
+    left: 25%;
+    bottom: 20%;
+    z-index: 50;
+    width: 50%;
+    height: 13%;
+    border-radius: 28%;
+    font-size: 13px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    
+}
 h2{
     text-align: center;
 }
 .text2{
     text-align: center;
+
 }
+.offer-link a{
+    font-size: 12px;
+    font-weight: 700;
+    color: #2d2c2c;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.offer-link a:hover{
+    color: #fa9e1b;
+    transition: all 200ms ease;
+}
+    /*  End Trip Section  */
 
-          /*  End Trip Section  */
-
-          /* Start Offers Section  */
+    /* Start Offers Section  */
 h2{
     text-align: center;
     font-size: 30px;
@@ -126,7 +201,7 @@ h2{
     font-size: 40px;
     font-weight: 700;
     font-family: cursive;
-    color: #b8860b;
+    color: #fa9e1b;
 }
 .offer-price .text-price span{
     color: #8b8d8a;
@@ -136,7 +211,119 @@ h2{
 }
 .offer-text .text-offer{
     color: #8b8d8a;
-
+}         
+    /* End Offers Section  */
+    /* Start Trend Section*/
+.header-content{
+    font-size: 30px;
+    font-weight: 700;
+    color: #2d2c2c;
+    margin-top: -8px;
+    text-transform: uppercase;
 }
-          
-          /* End Offers Section  */
+.all-content{
+    margin-bottom: 50px;
+}
+.trend-container{
+    margin-top: 70px;
+}
+.trend-image{
+    width: 100px;
+    height: 86px;
+}
+.trend-image img{
+    width: 100%;
+}
+.text-content{
+    padding-left: 15px;
+}
+.text-content h3{
+    font-size: 16px;
+    font-weight: 700;
+    color: #2d2c2c;
+    text-transform: uppercase
+}
+.trend-price{
+    font-size: 15px;
+    font-weight: 700;
+    color: #fa9e1b;
+    margin-top: 2px;
+}
+.trend-location{
+    font-size: 14px;
+    font-weight: 400;
+    color: #929191;
+    text-transform: uppercase;
+    margin-top: 5px;
+}
+
+    /* End Trend Section*/
+    /* Start Footer*/
+footer{
+    background-color:hsl(227, 54%, 34%,1) !important;
+}
+.footer-box{
+    padding-top: 50px;
+}
+.name{
+    font-size: 35px;
+    font-weight: 700;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin: -12px 0px 35px 0px;
+}
+.name-about{
+    font-size: 14px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+.footer-title{
+    font-size: 15px;
+    font-weight: 700;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+.blog-items{
+    margin-bottom: 20px;
+}
+.blog-image{
+    width: 60px;
+    height: 60px;
+}
+.blog-content{
+    padding-left:15px;
+}
+.blog-title{
+    margin-top: -4px;
+    padding-left: 1px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+.blog-date{
+    font-size: 12px;
+    font-weight: 400;
+    color: #fa9e1b;
+    margin-top: 7px;
+}
+
+.contact{
+    margin-bottom: 20px;
+}
+.info-text{
+    padding-left:20px;
+    font-size:14px;
+    font-weight:400;
+    color:#FFFFFF;
+    line-height: 1.5;
+}
+.info-text a:hover{
+    color: #fa9e1b;
+    cursor: pointer;
+}
+.icon{
+    font-size: 18px;
+    color:  #fa9e1b;
+}
+    /* End Footer*/

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,100 +10,135 @@
     <link href="Css/style.css" rel="stylesheet">
     <!-- link Css -->
     <link rel='stylesheet' href="Css/fontawesome.min.css" />
+    <link rel='stylesheet' href="Css/all.min.css" />
     <!-- link FontAwsome -->
 </head>
 
 <body>
-    <section class="cover-photo">
+    <section class="cover-photo" id="home">
         <div class="over"></div>
-            <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
-                <div class="container">           
-                        <!-- Brand -->
-                        <a class="navbar-brand" href="#">World Travel</a>
-                        <!-- Toggler/collapsibe Button -->
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-                        <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <!-- Navbar links -->
-                        <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                            <ul class="navbar-nav ml-auto">
-                                <li class="nav-item">
-                                <a class="nav-link" href="#">Home</a>
-                                </li>
-                                <li class="nav-item">
-                                <a class="nav-link" href="#">about us</a>
-                                </li>
-                                <li class="nav-item">
-                                <a class="nav-link" href="#">offers</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">news</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">contact</a>
-                                </li>                                                  
-                            </ul>
-                        </div>
-                </div>                
-            </nav>
-            <div class="text-center">
-                <h1>discover <br> the world</h1>
-            </div>
-            <!-- Search  -->
-            <div class="search-content">
-                <div class="search-item container ">
-                    <form class=" ttt">
-                        <!-- Items  -->
-                            <div class="row">
-                                <div class="col-lg-3 col-sm-6">
-                                        <label >destination</label>
-                                        <input type="text"  placeholder="Enter Your Destination">
-                                </div>    
-                                <div class="col-lg-3 col-sm-6">
-                                        <label >check in </label>
-                                        <input type="text"  placeholder="YYY-MM-DD">
-                                </div>  
-                                <div class="col-lg-3 col-sm-6">
-                                        <label >check out</label>
-                                        <input type="text"  placeholder="YYY-MM-DD">
-                                </div>  
-                                <div class="col-lg-3 col-sm-6">
-                                        <label >partaner</label>
-                                        <input type="text"  placeholder="1">
-                                </div>  
-                            </div>
-                        </div>
-                    </form>
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+            <div class="container">
+                <!-- Brand -->
+                <a class="navbar-brand" href="#">World Travel</a>
+                <!-- Toggler/collapsibe Button -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Navbar links -->
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-scroll="home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-scroll="trips">Trips</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-scroll="offer">Offers</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-scroll="trend">Trend</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-scroll="contact">contact</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
+        </nav>
+        <div class="text-over">
+            <h1>discover <br> the world</h1>
+        </div>
+        <!-- Search  -->
+        <div class="search-content">
+            <div class="search-item container ">
+                <form class=" ttt">
+                    <!-- Items  -->
+                    <div class="row">
+                        <div class="col-lg-3 col-sm-6">
+                            <label>destination</label>
+                            <input type="text" placeholder="Enter Your Destination">
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <label>check in </label>
+                            <input type="text" placeholder="YYY-MM-DD">
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <label>check out</label>
+                            <input type="text" placeholder="YYY-MM-DD">
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <label>partaner</label>
+                            <input type="text" placeholder="1">
+                        </div>
+                    </div>
+            </div>
+            </form>
+        </div>
+        </div>
     </section>
     <!-- Trips Section  -->
-    <div class="trips ">
+    <div class="trips" id="trips">
         <div class="container">
             <h2>We have the best tours</h2>
-            <p class="text2">orem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor. Suspendisse potenti. In fauc <br> orem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor. Suspendisse potenti. In fauc</p>
+            <p class="text2">orem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor.
+                Suspendisse potenti. In fauc <br> orem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu
+                convallis tortor. Suspendisse potenti. In fauc</p>
             <div class="row">
                 <div class="col-md-4">
                     <div class="aws">
                         <div class="over-aws"></div>
-                        <img src="Photos/intro_1.jpg" alt="" >
+                        <div class="cover-img-trip " style="background-image: url(./Photos/intro_1.jpg);"></div>
+                            <div class="trip-content d-flex flex-column align-items-center justify-content-center">
+                                <div class="trip-date">May 25th - June 01st</div>
+                                <div class="trip-text text-center">
+                                    <h5>Scotlanda</h5>
+                                    <div class="intro-price"> From 1420$</div>
+                                </div>
+                                <div class="trip-button">
+                                    <button type="button" class="btn btn-warning">See More</button>
+                                </div>
+                            </div>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="aws">
-                        <img src="photos/intro_2.jpg" alt="">
+                        <div class="over-aws"></div>
+                        <div class="cover-img-trip " style="background-image: url(./Photos/intro_2.jpg);"></div>
+                        <div class="trip-content d-flex flex-column align-items-center justify-content-center">
+                            <div class="trip-date">May 25th - June 01st</div>
+                            <div class="trip-text text-center">
+                                <h5>Australia</h5>
+                                <div class="intro-price"> From 1350$</div>
+                            </div>
+                            <div class="trip-button">
+                                <button type="button" class="btn btn-warning">See More</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="aws">
-                        <img src="photos/intro_3.jpg" alt="">
-                    </div> 
-                </div>       
+                        <div class="over-aws"></div>
+                        <div class="cover-img-trip " style="background-image: url(./Photos/intro_3.jpg);"></div>
+                        <div class="trip-content d-flex flex-column align-items-center justify-content-center">
+                            <div class="trip-date">May 25th - June 01st</div>
+                            <div class="trip-text text-center">
+                                <h5>Canda</h5>
+                                <div class="intro-price"> From 1800$</div>
+                            </div>
+                            <div class="trip-button">
+                                <button type="button" class="btn btn-warning">See More</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
     <!-- Offers Section  -->
-    <section class=" jumbotron">
+    <section class=" jumbotron" id="offer">
         <div class="container">
             <h2>the best offers with rooms</h2>
             <div class="first-offer">
@@ -112,10 +148,11 @@
                     </div>
                     <div class="col-md-3">
                         <div class="offer-price">
-                            <p class="text-price"> 110$ <span>per Night</span> </p> 
+                            <p class="text-price"> 110$ <span>per Night</span> </p>
                         </div>
                         <div class="offer-text">
-                            <p class="text-offer">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque a, aliquid eaque impedit neque odit dolorum culpa laudantium maxime fuga 
+                            <p class="text-offer">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque a,
+                                aliquid eaque impedit neque odit dolorum culpa laudantium maxime fuga
                             </p>
                         </div>
                         <div class="offer-link">
@@ -131,7 +168,8 @@
                             <p class="text-price"> 50$ <span>per Night</span></p>
                         </div>
                         <div class="offer-text">
-                            <p class="text-offer">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque a, aliquid eaque impedit neque odit dolorum culpa laudantium maxime fuga 
+                            <p class="text-offer">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque a,
+                                aliquid eaque impedit neque odit dolorum culpa laudantium maxime fuga
                             </p>
                         </div>
                         <div class="offer-link">
@@ -150,7 +188,8 @@
                             <p class="text-price"> 75$ <span>per Night</span></p>
                         </div>
                         <div class="offer-text">
-                            <p class="text-offer">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque a, aliquid eaque impedit neque odit dolorum culpa laudantium maxime fuga 
+                            <p class="text-offer">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque a,
+                                aliquid eaque impedit neque odit dolorum culpa laudantium maxime fuga
                             </p>
                         </div>
                         <div class="offer-link">
@@ -166,18 +205,175 @@
                             <p class="text-price"> 100$ <span>per Night</span></p>
                         </div>
                         <div class="offer-text">
-                            <p class="text-offer">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque a, aliquid eaque impedit neque odit dolorum culpa laudantium maxime fuga 
+                            <p class="text-offer">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque a,
+                                aliquid eaque impedit neque odit dolorum culpa laudantium maxime fuga
                             </p>
                         </div>
                         <div class="offer-link">
                             <a href="">Read more</a>
-                        </div>                    </div>
+                        </div>
+                    </div>
                 </div>
             </div>
     </section>
 
+    <!--Trend Section-->
+    <section class="trend" id="trend">
+        <div class="container">
+            <div class="header-content text-center">trending now</div>
+                <div class="row trend-container">
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="all-content d-flex">
+                            <div class="trend-image"><img src="./Photos/trend_1.png" alt=""></div>
+                            <div class="text-content"> 
+                                <h3>grand</h3>
+                            <div class="trend-price">From 183$</div>    
+                            <div class="trend-location">madrid,spain</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="all-content d-flex">
+                            <div class="trend-image"><img src="./Photos/trend_2.png" alt=""></div>
+                            <div class="text-content"> 
+                                <h3>grand</h3>
+                            <div class="trend-price">From 183$</div>    
+                            <div class="trend-location">madrid,spain</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="all-content d-flex">
+                            <div class="trend-image"><img src="./Photos/trend_3.png" alt=""></div>
+                            <div class="text-content"> 
+                                <h3>grand</h3>
+                            <div class="trend-price">From 183$</div>    
+                            <div class="trend-location">madrid,spain</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="all-content d-flex">
+                            <div class="trend-image"><img src="./Photos/trend_4.png" alt=""></div>
+                            <div class="text-content"> 
+                                <h3>grand</h3>
+                            <div class="trend-price">From 183$</div>    
+                            <div class="trend-location">madrid,spain</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="all-content d-flex">
+                            <div class="trend-image"><img src="./Photos/trend_5.png" alt=""></div>
+                            <div class="text-content"> 
+                                <h3>grand</h3>
+                            <div class="trend-price">From 183$</div>    
+                            <div class="trend-location">madrid,spain</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="all-content d-flex">
+                            <div class="trend-image"><img src="./Photos/trend_6.png" alt=""></div>
+                            <div class="text-content"> 
+                                <h3>grand</h3>
+                            <div class="trend-price">From 183$</div>    
+                            <div class="trend-location">madrid,spain</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="all-content d-flex">
+                            <div class="trend-image"><img src="./Photos/trend_7.png" alt=""></div>
+                            <div class="text-content"> 
+                                <h3>grand</h3>
+                            <div class="trend-price">From 183$</div>    
+                            <div class="trend-location">madrid,spain</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="all-content d-flex">
+                            <div class="trend-image"><img src="./Photos/trend_8.png" alt=""></div>
+                            <div class="text-content"> 
+                                <h3>grand</h3>
+                            <div class="trend-price">From 183$</div>    
+                            <div class="trend-location">madrid,spain</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </section>
+    <!--Footer Section-->
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-box">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="name">world travel</div>
+                        <div class="name-about">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore laudantium architecto et rerum culpa officia cum nulla quam explicabo vel autem molestiae, perspiciatis eaque officiis! Quisquam nostrum dicta sapiente. Magnam?</div>
+                        <div class="social"></div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="footer-title">BLOG POSTS</div>
+                        <div class="blog-items d-flex">
+                            <div class="blog-image"><img src="./Photos/footer_blog_1.jpg" alt=""></div>
+                            <div class="blog-content">
+                                <div class="blog-title">Travel With Us This Year</div>
+                                <div class="blog-date">June,2020</div>
+                            </div>
+                        </div>
+    
+                        <div class="blog-items d-flex">
+                            <div class="blog-image"><img src="./Photos/footer_blog_2.jpg" alt=""></div>
+                            <div class="blog-content">
+                                <div class="blog-title">Travel With Us This Year</div>
+                                <div class="blog-date">June,2020</div>
+                            </div>
+                        </div>
+                        <div class="blog-items d-flex">
+                            <div class="blog-image"><img src="./Photos/footer_blog_3.jpg" alt=""></div>
+                            <div class="blog-content">
+                                <div class="blog-title">Travel With Us This Year</div>
+                                <div class="blog-date">June,2020</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="footer-title">contact info</div>  
+                        <div class="contact d-flex">
+                            <div class="icon"><i class="fas fa-map-marker-alt"></i></div>
+                            <div class="info-text">
+                                 <a>4127 Raoul Wallenber 45b-c Gibraltar</a>
+                            </div>
+                        </div>
+                        <div class="contact d-flex">
+                            <div class="icon"><i class="fas fa-phone-volume"></i></div>
+                            <div class="info-text">
+                                <a>2556-808-8613</a>
+                            </div>
+                        </div>
+                        <div class="contact d-flex">
+                            <div class="icon"><i class="fas fa-envelope-open-text"></i></div>
+                            <div class="info-text">
+                                <a>contactme@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contact d-flex">
+                            <div class="icon"><i class="fas fa-map-marker-alt"></i></div>
+                            <div class="info-text">
+                                <a>4127 Raoul Wallenber 45b-c Gibraltar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>   
+        </div>
+    </footer>
     <script src="Js/jquery-3.4.1.min.js"></script>
     <script src="Js/bootstrap.min.js"></script>
-    <script src="Js/script.js"></script>    
+    <script src="Js/script.js"></script>
 </body>
+
 </html>
